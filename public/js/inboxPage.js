@@ -11,7 +11,7 @@ $(document).ready(() => {
 
 function outputChatList(chatList, container) {
     chatList.forEach(chat => {
-        var html = createChatHtml(chat);
+        let html = createChatHtml(chat);
         container.append(html);
     })
 
@@ -21,9 +21,9 @@ function outputChatList(chatList, container) {
 }
 
 function createChatHtml(chatData) {
-    var chatName = getChatName(chatData);
-    var image = getChatImageElements(chatData);
-    var latestMessage = getLatestMessage(chatData.latestMessage);
+    let chatName = getChatName(chatData);
+    let image = getChatImageElements(chatData);
+    let latestMessage = getLatestMessage(chatData.latestMessage);
     
     return `<a href='/messages/${chatData._id}' class='resultListItem'>
                 ${image}
@@ -38,7 +38,7 @@ function createChatHtml(chatData) {
 //commmon.js 로 이동 
 // function getLatestMessage(latestMessage) {
 //     if(latestMessage != null) {
-//         var sender = latestMessage.sender;
+//         let sender = latestMessage.sender;
 //         return `${sender.firstName} ${sender.lastName}: ${latestMessage.content}`;
 //     }
 
@@ -46,10 +46,10 @@ function createChatHtml(chatData) {
 // }
 
 // function getChatImageElements(chatData) {
-//     var otherChatUsers = getOtherChatUsers(chatData.users);
+//     let otherChatUsers = getOtherChatUsers(chatData.users);
 
-//     var groupChatClass = "";
-//     var chatImage = getUserChatImageElement(otherChatUsers[0]);
+//     let groupChatClass = "";
+//     let chatImage = getUserChatImageElement(otherChatUsers[0]);
 
 //     if(otherChatUsers.length > 1) {
 //         groupChatClass = "groupChatImage";

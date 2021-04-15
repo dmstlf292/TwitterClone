@@ -33,7 +33,7 @@ function outputPinnedPost(results, container) {
     container.html("");
 
     results.forEach(result => {
-        var html = createPostHtml(result)
+        let html = createPostHtml(result)
         container.append(html);
     });
 }

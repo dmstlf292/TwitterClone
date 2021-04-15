@@ -17,16 +17,16 @@ router.get("/", (req, res, next) => {
 
 router.post("/", async (req, res, next) => {
 
-    var firstName = req.body.firstName.trim();
-    var lastName = req.body.lastName.trim();
-    var username = req.body.username.trim();
-    var email = req.body.email.trim();
-    var password = req.body.password;
+    let firstName = req.body.firstName.trim();
+    let lastName = req.body.lastName.trim();
+    let username = req.body.username.trim();
+    let email = req.body.email.trim();
+    let password = req.body.password;
 
-    var payload = req.body;
+    let payload = req.body;
 
     if(firstName && lastName && username && email && password) {
-        var user = await User.findOne({
+        let user = await User.findOne({
             $or: [
                 { username: username },
                 { email: email }
@@ -40,7 +40,7 @@ router.post("/", async (req, res, next) => {
 
         if(user == null) {
             // No user found
-            var data = req.body;
+            let data = req.body;
             data.password = await bcrypt.hash(password, 10);
 
             User.create(data)

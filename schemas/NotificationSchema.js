@@ -10,7 +10,7 @@ const NotificationSchema = new Schema({
 }, { timestamps: true });
 
 NotificationSchema.statics.insertNotification = async (userTo, userFrom, notificationType, entityId) => {
-    var data = {
+    let data = {
         userTo: userTo,
         userFrom: userFrom,
         notificationType: notificationType,

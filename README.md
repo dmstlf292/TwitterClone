@@ -17,7 +17,7 @@
 * arrange to show error or null codes from top and working code to bottom 
 
 
-### 👇🏻 You can check how it runs! Follow below like 
+### 👇🏻 You can check how it runs! Follow below like (Currently it's not working, I'll fix asap)
 
 http://3.34.1.185:3003/
 

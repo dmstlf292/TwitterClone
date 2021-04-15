@@ -1,4 +1,4 @@
-# Twitter_Clone
+# Twitter_Clone (by Udemy Academy)
 
 ### 💻 This is Personal Project and Started at 29/03/2021 ~ 06/04/2021
 * Worked on Twitter Clone Coding with VScode, MacOS & MongoDB

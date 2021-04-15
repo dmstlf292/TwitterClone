@@ -13,8 +13,8 @@
   Pug, JavaScript, CSS, Node.js, MongoDB & mongoose + published on AWS EC2 🙀
 
 ### ⚡️ Fixed
-* changed var to let
-* arrange to show error or null codes from top and working code to bottom 
+* Changed var to let
+* Arranged to show error or null codes from top and working code to bottom 
 
 
 ### 👇🏻 You can check how it runs! Follow below like (Currently it's not working, I'll fix asap)

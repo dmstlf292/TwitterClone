@@ -1,4 +1,4 @@
-# Twitter_Clone (by Udemy Academy)
+# Twitter_Clone
 
 ### 💻 This is Personal Project and Started at 29/03/2021 ~ 06/04/2021
 * Worked on Twitter Clone Coding with VScode, MacOS & MongoDB
@@ -10,16 +10,12 @@
   - Group Chatting and All Notification using Socket I.O
   
 * What am i using on this project? 
-  Pug, JavaScript, CSS, Node.js, MongoDB & mongoose + published on AWS EC2 🙀
+  Pug, JavaScript, CSS, Node.js, MongoDB & mongoose + published on AWS EC2 (closed) 🙀
 
 ### ⚡️ Fixed
 * Changed var to let
 * Arranged to show error or null codes from top and working code to bottom 
 
-
-### 👇🏻 You can check how it runs! Follow below like (Currently it's not working, I'll fix asap)
-
-http://3.34.1.185:3003/
 
 
 ### 📝 Final Repositorys And Packages.json
